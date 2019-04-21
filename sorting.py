@@ -16,5 +16,5 @@ def selectionSort(list1):
         list1[i],list1[j] = list1[j],list1[i] 
     print(list1)
 list1=list(map(int,input("Enter the list of elements:").strip().split()))
-#insertionSort(list1)
+insertionSort(list1)
 #selectionSort(list1)
